@@ -14,7 +14,7 @@ A significant challenge in this project is the high number of false positives, w
 - Improve precision and recall rates for predicting non-subscribers.
 - Optimize resource allocation and enhance marketing strategies in the banking sector.
 
-## Dataset
+## Dataset :book:
 - **Source:** [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/222/bank+marketing)
 - **Features:** 16
 - **Instances:** 45211
@@ -23,7 +23,7 @@ A significant challenge in this project is the high number of false positives, w
 ## Outlier Detection
 To address potential noise in the data, DBSCAN was used to identify and remove outliers. However, this step did not significantly impact the final model's performance.
 
-## Models Evaluated 
+## Models Evaluated :chart_with_upwards_trend:
 Three machine learning models were evaluated with following metrics in this project:
 - Confusion Matrix
 - Classification Report
@@ -45,6 +45,7 @@ Three machine learning models were evaluated with following metrics in this proj
 - Class 1 (Subscribers):
   - Precision: 0.60
   - Recall: 0.38
+
 After thorough analysis, the Support Vector Machine (SVM) model outperformed the other two models in key performance metrics, particularly in minimizing false positives.
 
 ## Insights
@@ -56,3 +57,6 @@ After thorough analysis, the Support Vector Machine (SVM) model outperformed the
 - TermDepositmodel.joblib: The saved final SVM model.
 - preprocessor.pkl: The data preprocessing pipeline used for the model.
 - bank-full.csv: The dataset used for this project
+
+## Conclusion
+This project successfully developed a predictive model that reduces false positives in predicting term deposit subscriptions, providing valuable insights for optimizing marketing strategies in the banking industry.
